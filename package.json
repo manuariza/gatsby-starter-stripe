@@ -1,0 +1,53 @@
+{
+  "name": "gatsby-starter-stripe",
+  "private": true,
+  "description": "A minimal starter to create a storefront with Stripe & Gatsby.",
+  "version": "0.3.0",
+  "author": "Brock McElroy (https://brxck.dev)",
+  "dependencies": {
+    "@stripe/stripe-js": "^1.13.2",
+    "gatsby": "^3.1.2",
+    "gatsby-image": "^3.1.0",
+    "gatsby-plugin-image": "^1.1.2",
+    "gatsby-plugin-manifest": "^3.1.0",
+    "gatsby-plugin-offline": "^4.1.0",
+    "gatsby-plugin-react-helmet": "^4.1.0",
+    "gatsby-plugin-sharp": "^3.1.2",
+    "gatsby-source-filesystem": "^3.1.0",
+    "gatsby-source-stripe": "^3.2.2",
+    "gatsby-transformer-sharp": "^3.1.0",
+    "hiq": "^4.1.4",
+    "netlify-identity-widget": "^1.9.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^6.15.5",
+    "slug": "^4.0.3",
+    "stripe": "^8.140.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "fixtures": "stripe fixtures ./stripe-fixtures.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brxck/gatsby-starter-stripe"
+  },
+  "bugs": {
+    "url": "https://github.com/brxck/gatsby-starter-stripe/issues"
+  },
+  "devDependencies": {
+    "babel-preset-gatsby": "^1.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-gatsby-standard": "^2.2.0",
+    "eslint-plugin-react": "^7.23.1",
+    "http-proxy-middleware": "^1.0.6",
+    "prettier": "^2.2.1"
+  }
+}
